@@ -3,7 +3,7 @@ version: '3'
 services:
   jenkins:
     restart: always
-    #user: "${UID}:${GID}"
+    # user: "${UID}:${GID}"
     container_name: jenkins
     image: jenkins-ansible
     build:
