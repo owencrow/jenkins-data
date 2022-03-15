@@ -41,7 +41,7 @@ services:
     build:
       context: jenkins-ansible/web
     ports:
-      - "80:80"
+      - "8008:80"
     networks:
       - net
 networks:
